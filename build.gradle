@@ -16,3 +16,7 @@ shadowJar {
     archiveBaseName = "javafx-tutorial-duke"
     archiveClassifier = null
 }
+
+run{
+    standardInput = System.in
+}
